@@ -49,7 +49,6 @@ def getInfo(station):
 
         for i in range(1, len(currentData)):
             jsonData[unidecode((currentDataHeaders[i].text)).lower()] = re.sub(r'[ \n\r]+', '', currentData[i].text).replace(',', '.')
-            
 
         return jsonData
     
