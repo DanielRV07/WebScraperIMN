@@ -14,8 +14,8 @@ The API endpoint is located at localhost:2000/result. This endpoint accepts both
 The request body should be a JSON object containing the parameter "station" which is the name of the meteorological station to retrieve information for.
 You can find the station's name by following these steps:
 
-Go to: https://www.imn.ac.cr/estaciones-automaticas and select a station.
-Next: Inspect the website and find the iframe with the "datos" id.
+Go to: https://www.imn.ac.cr/estaciones-automaticas and select a station. \n
+Next: Inspect the website and find the iframe with the "datos" id. \n
 Finally: In the iframe you will find srs=/especial/tablas/cartagotec.html, the name of the station is the text between the last / and the .html.
 
 Please note that this script relies on web scraping to retrieve data from the IMN website, which may be subject to change without notice. 
